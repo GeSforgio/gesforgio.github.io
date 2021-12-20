@@ -3,7 +3,7 @@
 
 <head>
 
-<link rel="stylesheet" href= "{{ url_for('static',filename='page_style.css') }}" type="text/css"  />
+<link rel="stylesheet" href= 'page_style.css' type="text/css"  />
     <meta charset="UTF-8">
     {% if title %}
         <title>salam -- {{ salam }}</title>
@@ -12,6 +12,10 @@
     {% endif %}
 </head>
 <body>
-{% block content %}{% endblock %}
+<div class="parent">
+  <p class="hello">СМОТРИ</p>
+  <a class="ad">santa.forever@mail.ru</a>
+  <p class="hello">ШИРЕ</p>
+</div>
 </body>
 </html>
