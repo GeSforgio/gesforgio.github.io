@@ -1,0 +1,45 @@
+
+body {
+    background-color: #114454;
+}
+
+.parent {
+    position: relative;
+    top: 50%;
+    transform: translate(0, 70%);
+}
+
+.hello {
+    display: block;
+    font-size: 170px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    line-height: 2px;
+}
+
+.ad {
+    color: #114454;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
+
+
+
+
+
